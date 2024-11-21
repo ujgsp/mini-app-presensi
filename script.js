@@ -1,9 +1,9 @@
 function checkIn() {
     fetch('https://script.google.com/macros/s/AKfycbwQshPrA768k6u-a-ElFo8O6dbQjcUqWdQu43XaSRV0LTULcTjuPuJ7F6E8o-qnDYoM/exec', {
             method: 'POST',
-            mode: 'no-cors',
+            // mode: 'no-cors',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'text/plain;charset=utf-8'
             },
             body: JSON.stringify({
                 action: 'checkin'
